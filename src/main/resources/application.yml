@@ -14,7 +14,7 @@ spring:
 
     dataSource:
       driverClassName: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://mysql/spring_blog?serverTimezone=UTC
+      url: jdbc:mysql://localhost/spring_blog?serverTimezone=UTC
       username: root
       password: 123456
 
