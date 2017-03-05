@@ -18,5 +18,5 @@ services:
         - "9000:9000"
       command: "java -jar /app/app.jar --spring.profiles.active=dev"
 
-#    redis:
-#      image: redis
+    redis:
+      image: redis
